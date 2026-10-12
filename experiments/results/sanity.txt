@@ -1,0 +1,4 @@
+rematches per tournament: 1.145
+colour |W-B| distribution: {np.int64(1): 19649, np.int64(3): 351}
+overall draw rate: 0.18054444444444445
+mean(actual - expected) score of white: -0.0002680505661047096 (should be ~0)
