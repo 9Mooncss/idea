@@ -1,0 +1,265 @@
+{
+ "n_markets": 408,
+ "n_points": 809508,
+ "brier_market_mid": 0.16578939677896945,
+ "brier_fair_model": 0.1682824648385679,
+ "mean_abs_gap": 0.056414452790790645,
+ "median_spread": 0.010000000000000009,
+ "backtests": [
+  {
+   "margin": 0.03,
+   "latency_s": 0,
+   "n_trades": 782,
+   "mean_pnl_per_share": -0.006913398976982091,
+   "se": 0.017173604089035115,
+   "total_pnl_1share": -5.406277999999995,
+   "median_top_size": 47.875
+  },
+  {
+   "margin": 0.03,
+   "latency_s": 1,
+   "n_trades": 782,
+   "mean_pnl_per_share": -0.014241855498721227,
+   "se": 0.017139792082102027,
+   "total_pnl_1share": -11.137131,
+   "median_top_size": 143.97500000000002
+  },
+  {
+   "margin": 0.03,
+   "latency_s": 3,
+   "n_trades": 782,
+   "mean_pnl_per_share": -0.01722012531969309,
+   "se": 0.017134705547819616,
+   "total_pnl_1share": -13.466137999999997,
+   "median_top_size": 196.01
+  },
+  {
+   "margin": 0.03,
+   "latency_s": 10,
+   "n_trades": 781,
+   "mean_pnl_per_share": -0.020252775928297054,
+   "se": 0.017062701574749446,
+   "total_pnl_1share": -15.817418,
+   "median_top_size": 190.02
+  },
+  {
+   "margin": 0.05,
+   "latency_s": 0,
+   "n_trades": 743,
+   "mean_pnl_per_share": 0.007492814266487219,
+   "se": 0.01736582451498088,
+   "total_pnl_1share": 5.567161000000004,
+   "median_top_size": 43.07
+  },
+  {
+   "margin": 0.05,
+   "latency_s": 1,
+   "n_trades": 743,
+   "mean_pnl_per_share": -0.004894952893674293,
+   "se": 0.017381188034431096,
+   "total_pnl_1share": -3.6369499999999997,
+   "median_top_size": 120.46
+  },
+  {
+   "margin": 0.05,
+   "latency_s": 3,
+   "n_trades": 743,
+   "mean_pnl_per_share": -0.008121908479138629,
+   "se": 0.017411113512822825,
+   "total_pnl_1share": -6.0345780000000016,
+   "median_top_size": 164.06
+  },
+  {
+   "margin": 0.05,
+   "latency_s": 10,
+   "n_trades": 742,
+   "mean_pnl_per_share": -0.008996400269541786,
+   "se": 0.017242211830976652,
+   "total_pnl_1share": -6.675329000000005,
+   "median_top_size": 177.98000000000002
+  },
+  {
+   "margin": 0.1,
+   "latency_s": 0,
+   "n_trades": 585,
+   "mean_pnl_per_share": 0.04494119316239315,
+   "se": 0.01926815889619271,
+   "total_pnl_1share": 26.290597999999996,
+   "median_top_size": 30.0
+  },
+  {
+   "margin": 0.1,
+   "latency_s": 1,
+   "n_trades": 585,
+   "mean_pnl_per_share": 0.03306147863247863,
+   "se": 0.01910938186384584,
+   "total_pnl_1share": 19.340964999999997,
+   "median_top_size": 71.07
+  },
+  {
+   "margin": 0.1,
+   "latency_s": 3,
+   "n_trades": 584,
+   "mean_pnl_per_share": 0.029413820205479446,
+   "se": 0.01902655706667188,
+   "total_pnl_1share": 17.177670999999997,
+   "median_top_size": 100.37
+  },
+  {
+   "margin": 0.1,
+   "latency_s": 10,
+   "n_trades": 579,
+   "mean_pnl_per_share": 0.026779573402417954,
+   "se": 0.018761680870650017,
+   "total_pnl_1share": 15.505372999999995,
+   "median_top_size": 128.23
+  },
+  {
+   "margin": 0.2,
+   "latency_s": 0,
+   "n_trades": 257,
+   "mean_pnl_per_share": 0.1251500233463035,
+   "se": 0.028858927152296092,
+   "total_pnl_1share": 32.163556,
+   "median_top_size": 16.0
+  },
+  {
+   "margin": 0.2,
+   "latency_s": 1,
+   "n_trades": 257,
+   "mean_pnl_per_share": 0.09174876653696498,
+   "se": 0.02883089962725584,
+   "total_pnl_1share": 23.579433,
+   "median_top_size": 20.0
+  },
+  {
+   "margin": 0.2,
+   "latency_s": 3,
+   "n_trades": 253,
+   "mean_pnl_per_share": 0.09639806324110672,
+   "se": 0.027761421414297695,
+   "total_pnl_1share": 24.38871,
+   "median_top_size": 29.49
+  },
+  {
+   "margin": 0.2,
+   "latency_s": 10,
+   "n_trades": 242,
+   "mean_pnl_per_share": 0.09114296280991735,
+   "se": 0.02727285278607691,
+   "total_pnl_1share": 22.056597,
+   "median_top_size": 76.065
+  }
+ ],
+ "stale_signal": [
+  {
+   "margin": 0.1,
+   "latency_s": 3,
+   "n_trades": 743,
+   "mean_pnl_per_share": -0.01457976850605653,
+   "se": 0.01689632071539348,
+   "total_pnl_1share": -10.832768000000002,
+   "median_top_size": 187.42
+  },
+  {
+   "margin": 0.1,
+   "latency_s": 3,
+   "n_trades": 217,
+   "mean_pnl_per_share": -0.022707138248847923,
+   "se": 0.029542361335908176,
+   "total_pnl_1share": -4.927448999999999,
+   "median_top_size": 163.7
+  },
+  {
+   "margin": 0.2,
+   "latency_s": 3,
+   "n_trades": 611,
+   "mean_pnl_per_share": -0.027310618657937814,
+   "se": 0.017791473414782915,
+   "total_pnl_1share": -16.686788000000004,
+   "median_top_size": 200.0
+  },
+  {
+   "margin": 0.2,
+   "latency_s": 3,
+   "n_trades": 203,
+   "mean_pnl_per_share": -0.01714900985221674,
+   "se": 0.029817780275537227,
+   "total_pnl_1share": -3.4812489999999987,
+   "median_top_size": 155.06
+  }
+ ],
+ "favourite_baseline_no_binance": [
+  {
+   "band": [
+    0.7,
+    0.9
+   ],
+   "n": 407,
+   "mean": -0.015829778869778863,
+   "se": 0.02192874409065207
+  },
+  {
+   "band": [
+    0.8,
+    0.95
+   ],
+   "n": 408,
+   "mean": 0.007844563725490188,
+   "se": 0.017570926809223786
+  },
+  {
+   "band": [
+    0.9,
+    0.99
+   ],
+   "n": 398,
+   "mean": -0.0006880050251256424,
+   "se": 0.013387752207451196
+  }
+ ],
+ "calibration": [
+  {
+   "bucket": "(0.0, 0.1]",
+   "n": 69924,
+   "mid": 0.04825557748412562,
+   "fair": 0.036954384684324215,
+   "realized": 0.04047251301412963
+  },
+  {
+   "bucket": "(0.1, 0.3]",
+   "n": 134727,
+   "mid": 0.20364039873225115,
+   "fair": 0.17356949558684048,
+   "realized": 0.18119604830509103
+  },
+  {
+   "bucket": "(0.3, 0.5]",
+   "n": 202034,
+   "mid": 0.4122281150697407,
+   "fair": 0.3988825046376154,
+   "realized": 0.39706188067354997
+  },
+  {
+   "bucket": "(0.5, 0.7]",
+   "n": 183782,
+   "mid": 0.59195495206277,
+   "fair": 0.6002187820034617,
+   "realized": 0.6009348031907369
+  },
+  {
+   "bucket": "(0.7, 0.9]",
+   "n": 138603,
+   "mid": 0.7986888090445372,
+   "fair": 0.816947850145835,
+   "realized": 0.8407970967439378
+  },
+  {
+   "bucket": "(0.9, 1.0]",
+   "n": 80438,
+   "mid": 0.9514568176732391,
+   "fair": 0.9590911732792374,
+   "realized": 0.9694795991944106
+  }
+ ]
+}
